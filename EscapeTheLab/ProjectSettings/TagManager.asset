@@ -8,13 +8,13 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Tables
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
+  - Coins
+  - Weapon
+  - Blood
+  - AccessCard
   - 
   - 
   - 
