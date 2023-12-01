@@ -17,7 +17,7 @@ public class ExitFloor : MonoBehaviour
         if (delvey.accessCardLevel > 0)
         {
             // Change Scene to Fight Level
-            SceneManager.LoadScene("MainMenu");
+            SceneManager.LoadScene("Level1Monster");
 
         }
         else

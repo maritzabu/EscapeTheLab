@@ -12,11 +12,15 @@ public class Delvey : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        health = 100;
-        coins = 0;
-        accessCardLevel = 0;
-        weaponLevel = 0;
-        bloodCount = 0;
+        health = PlayerPrefs.GetInt("health");
+        coins = PlayerPrefs.GetInt("coins");
+        accessCardLevel = PlayerPrefs.GetInt("accessCardLevel");
+        weaponLevel = PlayerPrefs.GetInt("weaponLevel");
+        bloodCount = PlayerPrefs.GetInt("bloodCount");
+        //int[] xpositions = {100, -14, 83, 160};
+        //int[] ypositions = {-104, -1, 117, 63};
+        //int randInt = Random.Range(0,4);
+        //transform.position = new Vector3(xpositions[randInt], ypositions[randInt], 0);
     }
 
     // Update is called once per frame
