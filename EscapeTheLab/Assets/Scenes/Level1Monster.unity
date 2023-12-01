@@ -543,7 +543,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delvey: {fileID: 201599604}
   gameover: {fileID: 790435748}
-  text: {fileID: 0}
+  text: {fileID: 1018797394}
 --- !u!70 &709918864
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
